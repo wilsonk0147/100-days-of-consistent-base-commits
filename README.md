@@ -473,4 +473,13 @@ console.log(sumRec(5)); // 15
 - Decentralized Autonomous Organization
 - Rules encoded in smart contracts
 - Members vote on proposals
-- No central authority
+- No central authority// Simple bot responding to commands
+
+function bot(command) {
+  if(command === "hello") return "Hi!";
+  if(command === "time") return new Date().toLocaleTimeString();
+  return "Unknown command";
+}
+
+console.log(bot("hello"));
+console.log(bot("time"));
