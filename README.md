@@ -1030,3 +1030,6 @@ async function getPrice(symbol){
   cache[symbol] = data;
   return data;
 }
+// Remove unused files
+// Standardize code formatting
+// Add comments
