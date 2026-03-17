@@ -441,3 +441,16 @@ function charCount(str) {
 }
 
 console.log(charCount("hello"));
+// Check if string is a valid URL
+
+function isValidURL(str) {
+  try {
+    new URL(str);
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+console.log(isValidURL("https://github.com")); // true
+console.log(isValidURL("invalid-url")); // false
