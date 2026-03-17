@@ -1021,3 +1021,12 @@ async function showPortfolio(){
 - Note any errors
 - Identify features to improve
 // Update portfolio formatting & fix minor bugs
+// Reduce API calls with caching
+const cache = {};
+async function getPrice(symbol){
+  if(cache[symbol]) return cache[symbol];
+  const res = await fetch(...);
+  const data = await res.json();
+  cache[symbol] = data;
+  return data;
+}
