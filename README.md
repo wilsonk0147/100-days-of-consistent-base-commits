@@ -621,3 +621,9 @@ function multiplyNums() {
   document.getElementById('result').innerText = a * b;
 }
 </script>
+# Day 54 - Web3 Tools
+
+- ethers.js: interact with Ethereum
+- web3.js: alternative library
+- Hardhat: test/deploy smart contracts
+- Metamask: wallet integration
