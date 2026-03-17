@@ -288,3 +288,11 @@ function findMaxMin(arr) {
 }
 
 console.log(findMaxMin([5, 3, 9, 1, 7]));
+# Day 20 - DEX vs CEX
+
+- CEX: Centralized Exchange (Binance, Coinbase)
+  - Pros: High liquidity, fast
+  - Cons: Custodial, trust needed
+- DEX: Decentralized Exchange (Uniswap, Sushiswap)
+  - Pros: Non-custodial, privacy
+  - Cons: Slippage, lower liquidity
