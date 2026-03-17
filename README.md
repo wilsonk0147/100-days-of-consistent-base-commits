@@ -264,3 +264,9 @@ function reverseString(str) {
 }
 
 console.log(reverseString("hello")); // olleh
+# Day 17 - Gas Fees
+
+- Gas is the cost to execute operations on Ethereum
+- Paid in ETH
+- Complex transactions = higher gas
+- Layer 2 reduces gas fees
