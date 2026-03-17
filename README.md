@@ -197,3 +197,24 @@ console.log(factorial(5)); // 120
 - Blocks are linked via cryptography
 - Decentralization reduces single points of failure
 - Public vs private blockchains
+// Generate a random number between min and max
+
+function random(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+console.log(random(1, 100));
+// Bubble sort example
+
+function bubbleSort(arr) {
+  for(let i = 0; i < arr.length; i++) {
+    for(let j = 0; j < arr.length - i -1; j++) {
+      if(arr[j] > arr[j+1]) {
+        [arr[j], arr[j+1]] = [arr[j+1], arr[j]];
+      }
+    }
+  }
+  return arr;
+}
+
+console.log(bubbleSort([5, 2, 9, 1, 5]));
