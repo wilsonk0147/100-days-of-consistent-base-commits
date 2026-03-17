@@ -524,3 +524,11 @@ console.log(matrix[1][2]); // 6
 - Utility vs governance tokens
 - Incentives for users
 - Inflation/deflation dynamics
+// Parse and stringify JSON
+
+const obj = {name: "Alice", age: 25};
+const jsonStr = JSON.stringify(obj);
+console.log(jsonStr);
+
+const parsed = JSON.parse(jsonStr);
+console.log(parsed.name);
