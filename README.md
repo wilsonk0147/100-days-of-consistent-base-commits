@@ -1020,3 +1020,4 @@ async function showPortfolio(){
 - Ask friends/community for UX suggestions
 - Note any errors
 - Identify features to improve
+// Update portfolio formatting & fix minor bugs
