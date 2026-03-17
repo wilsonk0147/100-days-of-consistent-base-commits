@@ -976,3 +976,8 @@ showPortfolio();
   body { font-family: Arial; background: #f5f5f5; }
   #portfolio { font-weight: bold; color: green; }
 </style>
+// Test portfolio dashboard
+function testPortfolio(){
+  console.assert(typeof showPortfolio === 'function', 'Portfolio function exists');
+}
+testPortfolio();
