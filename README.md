@@ -958,3 +958,17 @@ console.log(fibonacci(20));
 <h1>Crypto Portfolio Dashboard</h1>
 <div id="portfolio"></div>
 <script src="finalProject.js"></script>
+// Fetch BTC and ETH prices
+async function showPortfolio(){
+  const resBTC = await fetch('https://api.coindesk.com/v1/bpi/currentprice/BTC.json');
+  const btc = await resBTC.json();
+  const btcUSD = parseFloat(btc.bpi.USD.rate.replace(',',''));
+
+  const ethRes = await fetch('https://api.coingecko.com/api/v3/simple/price?ids=ethereum&vs_currencies=usd');
+  const eth = await ethRes.json();
+  const ethUSD = eth.ethereum.usd;
+
+  document.getElementById('portfolio').innerText = `BTC: $${btcUSD}, ETH: $${ethUSD}`;
+}
+
+showPortfolio();
