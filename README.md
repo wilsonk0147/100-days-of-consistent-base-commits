@@ -659,3 +659,26 @@ function renderTasks() {
   });
 }
 renderTasks();
+// Add delete button for each task
+
+function renderTasks() {
+  const tasks = JSON.parse(localStorage.getItem('tasks')||'[]');
+  const ul = document.getElementById('tasks');
+  ul.innerHTML = '';
+  tasks.forEach((task, index) => {
+    const li = document.createElement('li');
+    li.textContent = task;
+    const delBtn = document.createElement('button');
+    delBtn.textContent = 'Delete';
+    delBtn.onclick = ()=>deleteTask(index);
+    li.appendChild(delBtn);
+    ul.appendChild(li);
+  });
+}
+
+function deleteTask(index) {
+  let tasks = JSON.parse(localStorage.getItem('tasks')||'[]');
+  tasks.splice(index,1);
+  localStorage.setItem('tasks', JSON.stringify(tasks));
+  renderTasks();
+}
