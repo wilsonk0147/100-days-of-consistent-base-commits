@@ -190,3 +190,10 @@ function factorial(n) {
 }
 
 console.log(factorial(5)); // 120
+# Day 8 - Blockchain Basics
+
+- Blockchain is a distributed ledger
+- Transactions are grouped in blocks
+- Blocks are linked via cryptography
+- Decentralization reduces single points of failure
+- Public vs private blockchains
