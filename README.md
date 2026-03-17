@@ -993,3 +993,13 @@ async function showPortfolio(){
 <h1>Deploy Portfolio Dashboard</h1>
 <p>Hosted on GitHub Pages or Vercel</p>
 <script src="finalProject.js"></script>
+# 100 Days of Commits - Final Project
+
+## Features
+- BTC & ETH prices
+- Portfolio display
+- Responsive design
+
+## How to Use
+- Open `finalProject.html`
+- Data fetched via API
