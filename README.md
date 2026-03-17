@@ -851,3 +851,22 @@ computeGains(history);
 - Sidechains
 - Sharding
 - Reduce gas and increase TPS
+<!DOCTYPE html>
+<html>
+<body>
+<button id="connect">Connect Wallet</button>
+<p id="status"></p>
+<script src="https://cdn.jsdelivr.net/npm/ethers/dist/ethers.min.js"></script>
+<script>
+  const btn = document.getElementById('connect');
+  const status = document.getElementById('status');
+
+  btn.onclick = async () => {
+    if(window.ethereum){
+      await window.ethereum.request({ method: 'eth_requestAccounts' });
+      status.innerText = 'Wallet Connected';
+    } else status.innerText = 'Install MetaMask';
+  }
+</script>
+</body>
+</html>
