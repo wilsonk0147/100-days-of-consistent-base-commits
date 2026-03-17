@@ -462,3 +462,9 @@ function sumRec(n) {
 }
 
 console.log(sumRec(5)); // 15
+# Day 38 - DAOs
+
+- Decentralized Autonomous Organization
+- Rules encoded in smart contracts
+- Members vote on proposals
+- No central authority
