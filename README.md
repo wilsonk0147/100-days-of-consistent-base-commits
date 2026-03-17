@@ -392,3 +392,11 @@ function parseCSV(str) {
 
 const csv = "name,age\nAlice,25\nBob,30";
 console.log(parseCSV(csv));
+// Parse CSV string to array
+
+function parseCSV(str) {
+  return str.split("\n").map(line => line.split(","));
+}
+
+const csv = "name,age\nAlice,25\nBob,30";
+console.log(parseCSV(csv));
