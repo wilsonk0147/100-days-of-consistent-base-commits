@@ -218,3 +218,10 @@ function bubbleSort(arr) {
 }
 
 console.log(bubbleSort([5, 2, 9, 1, 5]));
+# Day 11 - Wallets & Keys
+
+- Wallet stores private/public keys
+- Private key: do NOT share
+- Public key: can receive funds
+- Hot wallet: online, easy access, higher risk
+- Cold wallet: offline, safer
