@@ -160,3 +160,4 @@ This is proof of work.
 
 No noise. Just consistency.
 init repo + add README with 100 days plan
+add simple script for basic logic practice
