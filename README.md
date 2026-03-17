@@ -627,3 +627,14 @@ function multiplyNums() {
 - web3.js: alternative library
 - Hardhat: test/deploy smart contracts
 - Metamask: wallet integration
+<input id="todoInput" placeholder="Add task">
+<button onclick="addTask()">Add</button>
+<ul id="tasks"></ul>
+<script>
+function addTask() {
+  const val = document.getElementById('todoInput').value;
+  const li = document.createElement('li');
+  li.textContent = val;
+  document.getElementById('tasks').appendChild(li);
+}
+</script>
