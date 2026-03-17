@@ -378,3 +378,9 @@ function rotateArray(arr, k) {
 }
 
 console.log(rotateArray([1,2,3,4,5], 2)); // [4,5,1,2,3]
+# Day 29 - Yield Farming
+
+- Provide liquidity to earn rewards
+- High APY = high risk
+- Monitor impermanent loss
+- Check smart contract security
