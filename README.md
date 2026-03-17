@@ -597,3 +597,27 @@ function multiply(a,b){return a*b;}
 console.log(add(2,3)); // 5
 console.log(subtract(5,2)); // 3
 console.log(multiply(3,4)); // 12
+<!-- Added subtract and multiply buttons -->
+<input id="num1" type="number">
+<input id="num2" type="number">
+<button onclick="addNums()">Add</button>
+<button onclick="subtractNums()">Subtract</button>
+<button onclick="multiplyNums()">Multiply</button>
+<p id="result"></p>
+<script>
+function addNums() {
+  const a = Number(document.getElementById('num1').value);
+  const b = Number(document.getElementById('num2').value);
+  document.getElementById('result').innerText = a + b;
+}
+function subtractNums() {
+  const a = Number(document.getElementById('num1').value);
+  const b = Number(document.getElementById('num2').value);
+  document.getElementById('result').innerText = a - b;
+}
+function multiplyNums() {
+  const a = Number(document.getElementById('num1').value);
+  const b = Number(document.getElementById('num2').value);
+  document.getElementById('result').innerText = a * b;
+}
+</script>
