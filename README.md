@@ -296,3 +296,14 @@ console.log(findMaxMin([5, 3, 9, 1, 7]));
 - DEX: Decentralized Exchange (Uniswap, Sushiswap)
   - Pros: Non-custodial, privacy
   - Cons: Slippage, lower liquidity
+// Simple CLI tool to greet user
+
+const readline = require('readline').createInterface({
+  input: process.stdin,
+  output: process.stdout
+});
+
+readline.question('Enter your name: ', name => {
+  console.log(`Hello, ${name}!`);
+  readline.close();
+});
