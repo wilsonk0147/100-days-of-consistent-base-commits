@@ -897,3 +897,14 @@ deployContract("MyToken");
 - Validate input handling
 - Test edge cases
 - Review with multiple auditors
+<!-- Added display of connected account -->
+<p id="account"></p>
+<script>
+btn.onclick = async () => {
+  if(window.ethereum){
+    const accounts = await window.ethereum.request({ method:'eth_requestAccounts' });
+    status.innerText = 'Wallet Connected';
+    document.getElementById('account').innerText = `Account: ${accounts[0]}`;
+  } else status.innerText = 'Install MetaMask';
+}
+</script>
