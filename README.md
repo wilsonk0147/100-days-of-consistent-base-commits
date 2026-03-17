@@ -720,3 +720,8 @@ async function fetchPrice() {
   document.getElementById('btcPrice').innerText = `BTC: $${data.bpi.USD.rate}`;
 }
 fetchPrice();
+// Filter coins by min price (example)
+
+function filterCoins(coins, minPrice) {
+  return coins.filter(c => c.price >= minPrice);
+}
