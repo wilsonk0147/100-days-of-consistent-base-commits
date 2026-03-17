@@ -562,3 +562,9 @@ const queue = [];
 queue.push(1);
 queue.push(2);
 console.log(queue.shift()); // 1
+# Day 50 - Security Basics
+
+- Keep private keys safe
+- Use strong passwords
+- Avoid phishing links
+- Verify smart contracts
