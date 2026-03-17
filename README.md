@@ -705,3 +705,10 @@ function deleteTask(index) {
   localStorage.setItem('tasks', JSON.stringify(tasks));
   renderTasks();
 }
+# Day 58 - Smart Contract Flow
+
+1. Write contract in Solidity
+2. Compile using Hardhat/Remix
+3. Deploy to testnet
+4. Interact via Web3/ethers.js
+5. Test & audit
