@@ -350,3 +350,8 @@ function isPrime(num) {
 }
 
 console.log(isPrime(17)); // true
+# Day 26 - Staking
+
+- Lock tokens in protocol to earn rewards
+- Provides network security
+- Risks: token lockup, smart contract bugs
