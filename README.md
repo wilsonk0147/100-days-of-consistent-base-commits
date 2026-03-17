@@ -762,3 +762,8 @@ async function checkBTC() {
 
 checkBTC();
 // Reduce API calls, batch requests
+# Day 66 - Bridges
+
+- Connect different blockchains
+- Enable token transfers cross-chain
+- Risk: exploits, liquidity issues
