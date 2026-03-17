@@ -891,3 +891,9 @@ async function deployContract(name){
 }
 
 deployContract("MyToken");
+# Day 78 - Smart Contract Audits
+
+- Check for reentrancy
+- Validate input handling
+- Test edge cases
+- Review with multiple auditors
