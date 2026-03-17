@@ -1045,3 +1045,9 @@ async function getPrice(symbol){
 - Improved JS, HTML, Web3
 - Built mini-projects & dApps
 - Confidence increased
+# Day 99 - Reflection
+
+- Learned consistency is key
+- Improved JS, HTML, Web3
+- Built mini-projects & dApps
+- Confidence increased
