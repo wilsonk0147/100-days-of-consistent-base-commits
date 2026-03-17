@@ -321,3 +321,9 @@ function binarySearch(arr, target) {
 }
 
 console.log(binarySearch([1,3,5,7,9], 5)); // 2
+# Day 23 - Liquidity Pools
+
+- Users provide tokens to pool
+- Pools enable trades in DEX
+- Earn fees proportional to contribution
+- Risk: impermanent loss
