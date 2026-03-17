@@ -568,3 +568,23 @@ console.log(queue.shift()); // 1
 - Use strong passwords
 - Avoid phishing links
 - Verify smart contracts
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculator</title>
+</head>
+<body>
+  <input id="num1" type="number" placeholder="Number 1">
+  <input id="num2" type="number" placeholder="Number 2">
+  <button onclick="calculate()">Add</button>
+  <p id="result"></p>
+
+  <script>
+    function calculate() {
+      const a = Number(document.getElementById('num1').value);
+      const b = Number(document.getElementById('num2').value);
+      document.getElementById('result').innerText = a + b;
+    }
+  </script>
+</body>
+</html>
