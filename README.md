@@ -495,3 +495,10 @@ console.log(mergeArrays([1,2],[3,4])); // [1,2,3,4]
 - Free tokens distributed by projects
 - Usually require wallet registration
 - Check legitimacy to avoid scams
+// Node.js: move file example
+
+const fs = require('fs');
+fs.rename('example.txt', 'folder/example.txt', err => {
+  if(err) console.error(err);
+  else console.log('File moved!');
+});
