@@ -243,3 +243,9 @@ function fibonacci(n) {
 }
 
 console.log(fibonacci(10));
+# Day 14 - Smart Contracts
+
+- Self-executing contracts on blockchain
+- Written in Solidity (Ethereum)
+- Automate trustless agreements
+- Examples: token, NFT, DeFi protocols
