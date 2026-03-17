@@ -551,3 +551,14 @@ async function getPrice() {
 }
 
 getPrice();
+// Simple stack and queue using arrays
+
+const stack = [];
+stack.push(1);
+stack.push(2);
+console.log(stack.pop()); // 2
+
+const queue = [];
+queue.push(1);
+queue.push(2);
+console.log(queue.shift()); // 1
