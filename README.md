@@ -731,3 +731,8 @@ body { font-family: Arial; }
 </style>
 <p id="btcPrice"></p>
 <script src="dashboard.js"></script>
+# Day 62 - Oracles
+
+- Provide off-chain data to smart contracts
+- Examples: Chainlink
+- Key for DeFi apps needing real-world data
