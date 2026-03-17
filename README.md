@@ -870,3 +870,14 @@ computeGains(history);
 </script>
 </body>
 </html>
+// Detect accounts and network
+
+async function connectWallet(){
+  if(window.ethereum){
+    const accounts = await ethereum.request({method:'eth_requestAccounts'});
+    const network = await ethereum.request({method:'net_version'});
+    console.log('Accounts:', accounts);
+    console.log('Network:', network);
+  }
+}
+connectWallet();
