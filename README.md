@@ -532,3 +532,8 @@ console.log(jsonStr);
 
 const parsed = JSON.parse(jsonStr);
 console.log(parsed.name);
+// Print triangle pattern
+
+for(let i = 1; i <= 5; i++){
+  console.log('*'.repeat(i));
+}
