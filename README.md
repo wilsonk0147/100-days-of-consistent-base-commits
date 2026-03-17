@@ -990,3 +990,6 @@ async function showPortfolio(){
     console.error('Error fetching prices', err);
   }
 }
+<h1>Deploy Portfolio Dashboard</h1>
+<p>Hosted on GitHub Pages or Vercel</p>
+<script src="finalProject.js"></script>
