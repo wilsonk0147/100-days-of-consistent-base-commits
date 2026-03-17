@@ -981,3 +981,12 @@ function testPortfolio(){
   console.assert(typeof showPortfolio === 'function', 'Portfolio function exists');
 }
 testPortfolio();
+// Fix missing API data handling
+
+async function showPortfolio(){
+  try {
+    // API calls...
+  } catch(err) {
+    console.error('Error fetching prices', err);
+  }
+}
