@@ -400,3 +400,16 @@ function parseCSV(str) {
 
 const csv = "name,age\nAlice,25\nBob,30";
 console.log(parseCSV(csv));
+// Find duplicates in array
+
+function findDuplicates(arr) {
+  const seen = new Set();
+  const duplicates = new Set();
+  for(const num of arr) {
+    if(seen.has(num)) duplicates.add(num);
+    else seen.add(num);
+  }
+  return [...duplicates];
+}
+
+console.log(findDuplicates([1,2,3,2,4,1])); // [1,2]
