@@ -1039,3 +1039,9 @@ async function getPrice(symbol){
 - Test UI
 - Validate Web3 interactions
 - Confirm deployment
+# Day 99 - Reflection
+
+- Learned consistency is key
+- Improved JS, HTML, Web3
+- Built mini-projects & dApps
+- Confidence increased
