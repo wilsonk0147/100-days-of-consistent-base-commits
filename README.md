@@ -163,3 +163,4 @@ init repo + add README with 100 days plan
 add simple script for basic logic practice
 solve algorithm problem and document approach
 test wallet connection using ethers.js
+add notes on DeFi APY, yield, and risks
