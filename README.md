@@ -779,3 +779,15 @@ async function bot(command) {
   }
   return "Unknown command";
 }
+// Add new commands: greet, time, BTC price
+
+async function bot(command) {
+  if(command==="hello") return "Hi!";
+  if(command==="time") return new Date().toLocaleTimeString();
+  if(command==="btc") {
+    const res = await fetch('https://api.coindesk.com/v1/bpi/currentprice.json');
+    const data = await res.json();
+    return `BTC: ${data.bpi.USD.rate}`;
+  }
+  return "Unknown command";
+}
