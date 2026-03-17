@@ -1033,3 +1033,9 @@ async function getPrice(symbol){
 // Remove unused files
 // Standardize code formatting
 // Add comments
+# Day 98 - Review
+
+- Check all scripts
+- Test UI
+- Validate Web3 interactions
+- Confirm deployment
