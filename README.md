@@ -225,3 +225,10 @@ console.log(bubbleSort([5, 2, 9, 1, 5]));
 - Public key: can receive funds
 - Hot wallet: online, easy access, higher risk
 - Cold wallet: offline, safer
+// Check if number is even or odd
+
+function checkNumber(num) {
+  return num % 2 === 0 ? "Even" : "Odd";
+}
+
+console.log(checkNumber(7)); // Odd
