@@ -638,3 +638,24 @@ function addTask() {
   document.getElementById('tasks').appendChild(li);
 }
 </script>
+// Save todos to localStorage
+
+function addTask() {
+  const val = document.getElementById('todoInput').value;
+  let tasks = JSON.parse(localStorage.getItem('tasks')||'[]');
+  tasks.push(val);
+  localStorage.setItem('tasks', JSON.stringify(tasks));
+  renderTasks();
+}
+
+function renderTasks() {
+  const tasks = JSON.parse(localStorage.getItem('tasks')||'[]');
+  const ul = document.getElementById('tasks');
+  ul.innerHTML = '';
+  tasks.forEach(task => {
+    const li = document.createElement('li');
+    li.textContent = task;
+    ul.appendChild(li);
+  });
+}
+renderTasks();
