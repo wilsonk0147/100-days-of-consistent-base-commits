@@ -174,3 +174,11 @@ function calculate(a, b, operator) {
 }
 
 console.log(calculate(10, 5, "+")); // 15
+// Factorial of a number
+
+function factorial(n) {
+  if (n === 0) return 1;
+  return n * factorial(n - 1);
+}
+
+console.log(factorial(5)); // 120
