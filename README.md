@@ -1015,3 +1015,8 @@ async function showPortfolio(){
 - GitHub Pages link
 - Social media post
 - Discord/Web3 communities
+# Day 94 - Feedback
+
+- Ask friends/community for UX suggestions
+- Note any errors
+- Identify features to improve
