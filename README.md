@@ -845,3 +845,9 @@ computeGains(history);
 <style>
   #value { font-weight: bold; color: blue; }
 </style>
+# Day 74 - Scaling
+
+- Layer 2 solutions
+- Sidechains
+- Sharding
+- Reduce gas and increase TPS
