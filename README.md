@@ -490,3 +490,8 @@ function mergeArrays(a, b) {
 }
 
 console.log(mergeArrays([1,2],[3,4])); // [1,2,3,4]
+# Day 41 - Airdrops
+
+- Free tokens distributed by projects
+- Usually require wallet registration
+- Check legitimacy to avoid scams
