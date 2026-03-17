@@ -736,3 +736,16 @@ body { font-family: Arial; }
 - Provide off-chain data to smart contracts
 - Examples: Chainlink
 - Key for DeFi apps needing real-world data
+// Track multiple coins (example)
+
+const coins = ['BTC','ETH','DOGE'];
+
+async function getPrices() {
+  for(const coin of coins) {
+    const res = await fetch(`https://api.coingecko.com/api/v3/simple/price?ids=${coin.toLowerCase()}&vs_currencies=usd`);
+    const data = await res.json();
+    console.log(`${coin}: $${data[coin.toLowerCase()].usd}`);
+  }
+}
+
+getPrices();
