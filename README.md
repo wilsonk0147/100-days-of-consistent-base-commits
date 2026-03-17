@@ -413,3 +413,9 @@ function findDuplicates(arr) {
 }
 
 console.log(findDuplicates([1,2,3,2,4,1])); // [1,2]
+# Day 32 - DeFi Risks
+
+- Smart contract bugs
+- Impermanent loss
+- Market volatility
+- Regulatory risks
