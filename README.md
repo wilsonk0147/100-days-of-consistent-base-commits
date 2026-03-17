@@ -761,3 +761,4 @@ async function checkBTC() {
 }
 
 checkBTC();
+// Reduce API calls, batch requests
