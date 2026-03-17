@@ -949,3 +949,9 @@ console.log(fibonacci(20));
 - Build coding & Web3 skills
 - Consistency over complexity
 - Show work in public
+# Day 84 - Advanced DeFi
+
+- Liquidity mining strategies
+- Cross-chain arbitrage
+- Flash loans
+- Risk management
