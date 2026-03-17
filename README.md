@@ -881,3 +881,13 @@ async function connectWallet(){
   }
 }
 connectWallet();
+// Mock deploy function (for Hardhat/Truffle)
+
+async function deployContract(name){
+  console.log(`Deploying ${name}...`);
+  // simulate deployment
+  await new Promise(r => setTimeout(r, 2000));
+  console.log(`${name} deployed at 0x123...abc`);
+}
+
+deployContract("MyToken");
