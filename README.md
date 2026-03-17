@@ -483,3 +483,10 @@ function bot(command) {
 
 console.log(bot("hello"));
 console.log(bot("time"));
+// Merge two arrays
+
+function mergeArrays(a, b) {
+  return [...a, ...b];
+}
+
+console.log(mergeArrays([1,2],[3,4])); // [1,2,3,4]
