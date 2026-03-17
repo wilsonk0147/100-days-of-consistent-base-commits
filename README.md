@@ -281,3 +281,10 @@ async function getData(url) {
 }
 
 getData('https://api.coindesk.com/v1/bpi/currentprice.json');
+// Find max and min in array
+
+function findMaxMin(arr) {
+  return { max: Math.max(...arr), min: Math.min(...arr) };
+}
+
+console.log(findMaxMin([5, 3, 9, 1, 7]));
