@@ -908,3 +908,16 @@ btn.onclick = async () => {
   } else status.innerText = 'Install MetaMask';
 }
 </script>
+// Combine features: connect wallet + display balance
+
+async function showBalance(){
+  if(window.ethereum){
+    const provider = new ethers.providers.Web3Provider(window.ethereum);
+    const signer = provider.getSigner();
+    const address = await signer.getAddress();
+    const balance = await provider.getBalance(address);
+    console.log(`Address: ${address}, Balance: ${ethers.utils.formatEther(balance)} ETH`);
+  }
+}
+
+showBalance();
