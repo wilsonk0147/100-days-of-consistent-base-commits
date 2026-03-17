@@ -384,3 +384,11 @@ console.log(rotateArray([1,2,3,4,5], 2)); // [4,5,1,2,3]
 - High APY = high risk
 - Monitor impermanent loss
 - Check smart contract security
+// Parse CSV string to array
+
+function parseCSV(str) {
+  return str.split("\n").map(line => line.split(","));
+}
+
+const csv = "name,age\nAlice,25\nBob,30";
+console.log(parseCSV(csv));
