@@ -749,3 +749,15 @@ async function getPrices() {
 }
 
 getPrices();
+// Alert if price > threshold
+
+const threshold = 50000;
+
+async function checkBTC() {
+  const res = await fetch('https://api.coindesk.com/v1/bpi/currentprice.json');
+  const data = await res.json();
+  const price = parseFloat(data.bpi.USD.rate.replace(',',''));
+  if(price > threshold) alert(`BTC > $${threshold}`);
+}
+
+checkBTC();
