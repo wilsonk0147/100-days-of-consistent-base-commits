@@ -972,3 +972,7 @@ async function showPortfolio(){
 }
 
 showPortfolio();
+<style>
+  body { font-family: Arial; background: #f5f5f5; }
+  #portfolio { font-weight: bold; color: green; }
+</style>
