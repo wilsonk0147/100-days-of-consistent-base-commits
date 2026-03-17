@@ -257,3 +257,10 @@ fs.readFile('example.txt', 'utf8', (err, data) => {
   if(err) throw err;
   console.log(data);
 });
+// Reverse a string
+
+function reverseString(str) {
+  return str.split("").reverse().join("");
+}
+
+console.log(reverseString("hello")); // olleh
