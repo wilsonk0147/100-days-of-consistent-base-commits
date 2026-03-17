@@ -921,3 +921,10 @@ async function showBalance(){
 }
 
 showBalance();
+// Example: clean up calculator functions
+
+function add(a,b){ return a+b; }
+function subtract(a,b){ return a-b; }
+function multiply(a,b){ return a*b; }
+
+// Removed redundant code, improved readability
