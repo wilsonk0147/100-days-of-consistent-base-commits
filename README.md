@@ -1003,3 +1003,10 @@ async function showPortfolio(){
 ## How to Use
 - Open `finalProject.html`
 - Data fetched via API
+# Day 92 - Demo
+
+- Screen record portfolio dashboard
+- Highlight:
+  - Wallet connection
+  - Price updates
+  - UI/UX improvements
