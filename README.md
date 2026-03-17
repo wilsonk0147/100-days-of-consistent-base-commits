@@ -725,3 +725,9 @@ fetchPrice();
 function filterCoins(coins, minPrice) {
   return coins.filter(c => c.price >= minPrice);
 }
+<style>
+body { font-family: Arial; }
+#btcPrice { font-weight: bold; color: green; }
+</style>
+<p id="btcPrice"></p>
+<script src="dashboard.js"></script>
