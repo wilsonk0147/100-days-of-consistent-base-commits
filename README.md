@@ -1010,3 +1010,8 @@ async function showPortfolio(){
   - Wallet connection
   - Price updates
   - UI/UX improvements
+# Day 93 - Share Project
+
+- GitHub Pages link
+- Social media post
+- Discord/Web3 communities
