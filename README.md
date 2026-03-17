@@ -327,3 +327,15 @@ console.log(binarySearch([1,3,5,7,9], 5)); // 2
 - Pools enable trades in DEX
 - Earn fees proportional to contribution
 - Risk: impermanent loss
+// Simple random password generator
+
+function generatePassword(length = 8) {
+  const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*';
+  let password = '';
+  for(let i = 0; i < length; i++) {
+    password += chars.charAt(Math.floor(Math.random() * chars.length));
+  }
+  return password;
+}
+
+console.log(generatePassword(12));
