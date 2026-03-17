@@ -791,3 +791,14 @@ async function bot(command) {
   }
   return "Unknown command";
 }
+// Only alert if new task exists
+
+let tasks = [];
+
+setInterval(() => {
+  const newTask = Math.random() > 0.5;
+  if(newTask) {
+    console.log("New task detected!");
+    tasks.push(Date.now());
+  }
+}, 10000);
