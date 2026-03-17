@@ -370,3 +370,11 @@ function listTodos() {
 addTodo("Learn GitHub");
 addTodo("Write script");
 listTodos();
+// Rotate array by k positions
+
+function rotateArray(arr, k) {
+  k %= arr.length;
+  return arr.slice(-k).concat(arr.slice(0, arr.length - k));
+}
+
+console.log(rotateArray([1,2,3,4,5], 2)); // [4,5,1,2,3]
