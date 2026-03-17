@@ -542,3 +542,12 @@ for(let i = 1; i <= 5; i++){
 - Scaling solutions for Ethereum
 - Faster and cheaper transactions
 - Examples: Arbitrum, Optimism
+const fetch = require('node-fetch');
+
+async function getPrice() {
+  const res = await fetch('https://api.coindesk.com/v1/bpi/currentprice.json');
+  const data = await res.json();
+  console.log(`BTC: ${data.bpi.USD.rate}`);
+}
+
+getPrice();
