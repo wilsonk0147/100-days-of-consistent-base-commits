@@ -840,3 +840,8 @@ function computeGains(arr){
 }
 
 computeGains(history);
+<p id="value"></p>
+<script src="portfolio.js"></script>
+<style>
+  #value { font-weight: bold; color: blue; }
+</style>
