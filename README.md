@@ -808,3 +808,24 @@ setInterval(() => {
 - Arbitrage opportunities in DeFi
 - Can affect transaction ordering
 - Risks for regular users
+// Simple crypto portfolio tracker
+
+let portfolio = {
+  BTC: 0.5,
+  ETH: 2
+};
+
+async function getPortfolioValue() {
+  const resBTC = await fetch('https://api.coindesk.com/v1/bpi/currentprice/BTC.json');
+  const dataBTC = await resBTC.json();
+  const btcUSD = parseFloat(dataBTC.bpi.USD.rate.replace(',',''));
+
+  const resETH = await fetch('https://api.coingecko.com/api/v3/simple/price?ids=ethereum&vs_currencies=usd');
+  const dataETH = await resETH.json();
+  const ethUSD = dataETH.ethereum.usd;
+
+  const total = portfolio.BTC*btcUSD + portfolio.ETH*ethUSD;
+  console.log(`Total Portfolio Value: $${total.toFixed(2)}`);
+}
+
+getPortfolioValue();
