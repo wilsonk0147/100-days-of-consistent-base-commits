@@ -537,3 +537,8 @@ console.log(parsed.name);
 for(let i = 1; i <= 5; i++){
   console.log('*'.repeat(i));
 }
+# Day 47 - Layer 2
+
+- Scaling solutions for Ethereum
+- Faster and cheaper transactions
+- Examples: Arbitrum, Optimism
