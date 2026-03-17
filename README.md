@@ -502,3 +502,10 @@ fs.rename('example.txt', 'folder/example.txt', err => {
   if(err) console.error(err);
   else console.log('File moved!');
 });
+// Node.js: move file example
+
+const fs = require('fs');
+fs.rename('example.txt', 'folder/example.txt', err => {
+  if(err) console.error(err);
+  else console.log('File moved!');
+});
