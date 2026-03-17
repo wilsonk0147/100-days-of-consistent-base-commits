@@ -712,3 +712,11 @@ function deleteTask(index) {
 3. Deploy to testnet
 4. Interact via Web3/ethers.js
 5. Test & audit
+// Fetch and display cryptocurrency prices
+
+async function fetchPrice() {
+  const res = await fetch('https://api.coindesk.com/v1/bpi/currentprice.json');
+  const data = await res.json();
+  document.getElementById('btcPrice').innerText = `BTC: $${data.bpi.USD.rate}`;
+}
+fetchPrice();
