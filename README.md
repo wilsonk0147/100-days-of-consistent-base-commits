@@ -419,3 +419,14 @@ console.log(findDuplicates([1,2,3,2,4,1])); // [1,2]
 - Impermanent loss
 - Market volatility
 - Regulatory risks
+// Simple countdown timer
+
+function countdown(seconds) {
+  const interval = setInterval(() => {
+    console.log(seconds);
+    seconds--;
+    if(seconds < 0) clearInterval(interval);
+  }, 1000);
+}
+
+countdown(5);
