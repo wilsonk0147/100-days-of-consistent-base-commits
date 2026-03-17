@@ -430,3 +430,14 @@ function countdown(seconds) {
 }
 
 countdown(5);
+// Count characters in string
+
+function charCount(str) {
+  const count = {};
+  for(const char of str) {
+    count[char] = (count[char] || 0) + 1;
+  }
+  return count;
+}
+
+console.log(charCount("hello"));
