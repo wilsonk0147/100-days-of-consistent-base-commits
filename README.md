@@ -270,3 +270,14 @@ console.log(reverseString("hello")); // olleh
 - Paid in ETH
 - Complex transactions = higher gas
 - Layer 2 reduces gas fees
+// Fetch data from an API
+
+const fetch = require('node-fetch');
+
+async function getData(url) {
+  const response = await fetch(url);
+  const data = await response.json();
+  console.log(data);
+}
+
+getData('https://api.coindesk.com/v1/bpi/currentprice.json');
