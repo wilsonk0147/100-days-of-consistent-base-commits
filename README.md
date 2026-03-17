@@ -509,3 +509,12 @@ fs.rename('example.txt', 'folder/example.txt', err => {
   if(err) console.error(err);
   else console.log('File moved!');
 });
+// Simple 2D matrix example
+
+const matrix = [
+  [1,2,3],
+  [4,5,6],
+  [7,8,9]
+];
+
+console.log(matrix[1][2]); // 6
