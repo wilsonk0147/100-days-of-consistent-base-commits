@@ -939,3 +939,13 @@ function fibonacci(n){
 }
 
 console.log(fibonacci(20));
+# 100 Days of Commits
+
+## Structure
+- day-1 to day-100 folders
+- Each day: script or notes
+
+## Purpose
+- Build coding & Web3 skills
+- Consistency over complexity
+- Show work in public
