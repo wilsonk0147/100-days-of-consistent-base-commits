@@ -518,3 +518,9 @@ const matrix = [
 ];
 
 console.log(matrix[1][2]); // 6
+# Day 44 - Tokenomics
+
+- Token supply & distribution
+- Utility vs governance tokens
+- Incentives for users
+- Inflation/deflation dynamics
