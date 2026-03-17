@@ -829,3 +829,14 @@ async function getPortfolioValue() {
 }
 
 getPortfolioValue();
+// Track gains/losses (mock example)
+
+const history = [1000, 1050, 1020, 1100];
+
+function computeGains(arr){
+  for(let i=1;i<arr.length;i++){
+    console.log(`Day ${i}: ${arr[i]-arr[i-1]} USD`);
+  }
+}
+
+computeGains(history);
