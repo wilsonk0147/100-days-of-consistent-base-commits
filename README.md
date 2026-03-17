@@ -164,3 +164,13 @@ add simple script for basic logic practice
 solve algorithm problem and document approach
 test wallet connection using ethers.js
 add notes on DeFi APY, yield, and risks
+// Simple calculator
+
+function calculate(a, b, operator) {
+  if (operator === "+") return a + b;
+  if (operator === "-") return a - b;
+  if (operator === "*") return a * b;
+  if (operator === "/") return a / b;
+}
+
+console.log(calculate(10, 5, "+")); // 15
