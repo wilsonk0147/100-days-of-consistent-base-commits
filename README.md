@@ -802,3 +802,9 @@ setInterval(() => {
     tasks.push(Date.now());
   }
 }, 10000);
+# Day 70 - MEV Basics
+
+- Miner/Maximal Extractable Value
+- Arbitrage opportunities in DeFi
+- Can affect transaction ordering
+- Risks for regular users
