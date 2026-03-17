@@ -955,3 +955,6 @@ console.log(fibonacci(20));
 - Cross-chain arbitrage
 - Flash loans
 - Risk management
+<h1>Crypto Portfolio Dashboard</h1>
+<div id="portfolio"></div>
+<script src="finalProject.js"></script>
