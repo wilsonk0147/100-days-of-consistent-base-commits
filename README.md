@@ -454,3 +454,11 @@ function isValidURL(str) {
 
 console.log(isValidURL("https://github.com")); // true
 console.log(isValidURL("invalid-url")); // false
+// Sum numbers recursively
+
+function sumRec(n) {
+  if(n <= 0) return 0;
+  return n + sumRec(n-1);
+}
+
+console.log(sumRec(5)); // 15
