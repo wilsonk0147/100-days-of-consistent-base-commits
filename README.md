@@ -355,3 +355,18 @@ console.log(isPrime(17)); // true
 - Lock tokens in protocol to earn rewards
 - Provides network security
 - Risks: token lockup, smart contract bugs
+// Basic todo list in memory
+
+let todos = [];
+
+function addTodo(item) {
+  todos.push(item);
+}
+
+function listTodos() {
+  console.log(todos);
+}
+
+addTodo("Learn GitHub");
+addTodo("Write script");
+listTodos();
