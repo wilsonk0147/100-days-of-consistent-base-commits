@@ -249,3 +249,11 @@ console.log(fibonacci(10));
 - Written in Solidity (Ethereum)
 - Automate trustless agreements
 - Examples: token, NFT, DeFi protocols
+// Read a file (Node.js example)
+
+const fs = require('fs');
+
+fs.readFile('example.txt', 'utf8', (err, data) => {
+  if(err) throw err;
+  console.log(data);
+});
